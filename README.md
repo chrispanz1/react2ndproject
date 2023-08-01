@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## This program uses axios to pull data from an API! It also uses the useState and UseEffect hooks!
 
 In the project directory, you can run:
 

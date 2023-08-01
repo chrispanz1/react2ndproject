@@ -10,6 +10,7 @@ function App() {
   const[capital,setCapital]=useState('default')
   const[population,setPopulation]=useState('default')
   const[region,setRegion]=useState('default')
+  //utilize hooks//
   
   
 
@@ -27,7 +28,7 @@ function App() {
     
       
       
-
+ 
     }).catch(err=>{
       console.log(err)
 
