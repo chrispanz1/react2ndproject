@@ -1,7 +1,9 @@
 
+
 import './App.css';
 import {useState} from 'react';
 import axios, { Axios } from 'axios';
+import Page from './components/Page';
 
 
 function App() {
@@ -11,8 +13,6 @@ function App() {
   const[population,setPopulation]=useState('default')
   const[region,setRegion]=useState('default')
   //utilize hooks//
-  //installing axios in terminal//
-  //major functioning below//
   
   
 
@@ -38,13 +38,17 @@ function App() {
   }
    
   return (
+    <div>
+      
     <div className="App">
+      <Page />
      <button onClick={receiveCountry}>country!</button>
     <p>COUNTRY {country}</p>
     <p>official {official}</p>
     <p>capital:{capital}</p>
     <p>Population is {population} people</p>
     <p>Region of world:{region}</p>
+    </div>
     </div>
   );
 }
