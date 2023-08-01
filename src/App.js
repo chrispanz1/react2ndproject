@@ -11,6 +11,7 @@ function App() {
   const[population,setPopulation]=useState('default')
   const[region,setRegion]=useState('default')
   //utilize hooks//
+  //installing axios in terminal//
   
   
 

@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## This program uses axios to pull data from an API! It also uses the useState and UseEffect hooks!
+## This program uses axios to pull data from an API! It also uses the useState and UseEffect hooks! I used the rest country api for this project after that I used the react hooks and state to manipulate my data for the user.
 
 In the project directory, you can run:
 
