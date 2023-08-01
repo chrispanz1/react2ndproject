@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is the first commit of the react project for per scholas!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
