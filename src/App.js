@@ -49,6 +49,15 @@ function App() {
     <p>Population is {population} people</p>
     <p>Region of world:{region}</p>
     </div>
+    <div className='parentDiv'>
+      <div className='leftDiv'>
+      <img src="https://media.licdn.com/dms/image/D4E35AQHEfXvLI_PAJA/profile-framedphoto-shrink_400_400/0/1690578525293?e=1691553600&v=beta&t=bzjG0osRcPe607VwGnJJFVrlO4-QkmMNMfZ-mBS0AP8" alt="" class="pic" />
+      </div>
+      <div className='rightDiv'>
+        <h1>welcome</h1>
+        <h3>Hi, my name is chris I am an aspiring web developer,problem solver and software engineer. I have a strong understanding of the mern stack and all of its nuances This is my portfolio page which shows my personal and professional projects along with my resume and a link to my git hub</h3>
+      </div>
+    </div>
     </div>
   );
 }
